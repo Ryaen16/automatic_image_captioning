@@ -85,10 +85,17 @@ def caption_this_image(image):
 
 
 
+st.markdown("""
+<style>
+body {
+    background-color: blue;
+}
+</style>
+    """, unsafe_allow_html=True)
 
 
 st.title("Automatic Image Captioning")
-st.header("Upload a image to get a neural caption for it")
+st.header("Upload an image to get a neural caption for it")
 # To View Uploaded Image
 image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
 if bool(image_file)==True :
