@@ -112,7 +112,7 @@ else :
     st.write("[link](https://drive.google.com/file/d/12nxEHF-DmJ5WnSudeZijkEOcxfIbNuTJ/view?usp=sharing)")
     st.text("")
     st.text("")
-    st.markdown("OOPS !!!!!!!!!! You are not ready with some images 😬. Don't worry i have some images for you click on the below button and it will generate caption to a random image from a set of images. 😎")
+    st.markdown("OOPS !!!!!!!!!! You are not ready with some images 😬. Don't worry I have some images for you click on the below button and it will generate caption to a random image from a set of images. 😎")
     if st.button('Generate Caption for a random image') :
         ran_num=np.random.randint(0,len(ran_imageid))
         img_static_path=str(ran_imageid[ran_num])+'.jpg'
