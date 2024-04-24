@@ -88,7 +88,7 @@ def caption_this_image(image):
 st.markdown("""
 <style>
 body {
-    background-color: blue;
+    background-color: #blue;
 }
 </style>
     """, unsafe_allow_html=True)
