@@ -85,14 +85,6 @@ def caption_this_image(image):
 
 
 
-st.markdown("""
-<style>
-body {
-    background-color: #ADD8E6;
-}
-</style>
-    """, unsafe_allow_html=True)
-
 
 st.title("Automatic Image Captioning")
 st.header("Upload an image to get a neural caption for it")
